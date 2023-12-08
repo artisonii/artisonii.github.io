@@ -33,11 +33,11 @@ function Contact() {
                     <h5>Email</h5>
                     <p>artisoni2615@gmail.com</p>
                 </div>
-                {/* <div id="contact-phone" className='contactCard'>
+                <div id="contact-phone" className='contactCard'>
                     <img src={Phone} alt="" />
                     <h5>Phone</h5>
-                    <p>+91 8756978783</p>
-                </div> */}
+                    <p>+91 9893541898</p>
+                </div>
             </div>
         </div>
     )

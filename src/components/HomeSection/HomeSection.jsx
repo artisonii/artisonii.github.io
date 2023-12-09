@@ -6,13 +6,13 @@ import MyResume from "../Navbar/MyResume.pdf"
 function HomeSection() {
     const downloadHandle = () => {
         const link = document.createElement("a");
-        link.download = "Arti_Soni_Resume.pdf";
+        link.download = "Arti soni Full Stack Web Developer.pdf";
         link.href = MyResume;
         link.setAttribute("class", "resume-link-2")
         link.click();
 
         window.open(
-            // "https://drive.google.com/file/d/15GPVu26v2bPbnt43GOcV54BeKHRHS9Cg/view?usp=drive_link",
+            "https://drive.google.com/file/d/1l2tdReS48JCtuk5ISXpYavyWPbNM3DBt/view?usp=sharing",
             "_blank"
         );
     };

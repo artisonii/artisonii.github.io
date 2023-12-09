@@ -1,17 +1,42 @@
 import React from 'react'
-import greenParadise from "./projectImages/GreenParadise.png"
-import woodFans from "./projectImages/WoodFans.png"
-import bewakoof from "./projectImages/Bewakoof.png"
+import alcazar from "./projectImages/alcazar.png"
+import bigbasket from "./projectImages/bigbasket.png"
+import wineshop from "./projectImages/wineshop.png"
 import bath from "./projectImages/bath.png"
 import "./Project.css"
 import { motion } from "framer-motion"
 
 const data = [
+
+    {
+        img: wineshop,
+        projectTitle: "Mine Wine",
+        techStack: ["HTML", "JavaScript", "CSS", "firebase"],
+        description: "The WineShop website is an online platform for wine enthusiasts to browse, purchase, and explore a wide variety of wine products. It offers user registration and login, a product catalog, product details, a shopping cart, and a checkout process.",
+        githubLink: "https://github.com/artisonii/Online-Wine-shop",
+        appLink: "https://glowing-marigold-0b2a2a.netlify.app/"
+    },
+    {
+        img: bigbasket,
+        projectTitle: "Big Basket",
+        techStack: ["HTML", "JavaScript", "CSS"],
+        description: "BigBasket is a web application that replicates the popular online grocery shopping platform, BigBasket. The project aims to showcase the frontend design and functionality of the BigBasket website, allowing users to browse products, add them to the cart, and proceed through the checkout process.",
+        githubLink: "https://github.com/artisonii/Big_Basket_Platform-Collab",
+        appLink: "https://64e7ae187eb6d30b420f1d46--lucky-cupcake-e72a9a.netlify.app/"
+    },
+    {
+        img: alcazar,
+        projectTitle: "Alcazar Travel Agency",
+        techStack: ["HTML", "JavaScript", "CSS"],
+        description: "At Alcazar Travel Agency, we believe that travel is more than just visiting new places; it's about creating unforgettable experiences, forging lasting memories, and discovering the world's wonders",
+        githubLink: "https://github.com/artisonii/devilish-drop-2377",
+        appLink: "https://silver-selkie-a62ab9.netlify.app/"
+    },
     {
         img: bath,
         projectTitle: "Bed Bath & Beyond",
         techStack: ["HTML", "JavaScript", "CSS"],
-        description: "Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings.",
+        description: "Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.",
         githubLink: "https://github.com/artisonii/pw134-high-fruit-9045",
         appLink: "https://effortless-raindrop-0b52c3.netlify.app/"
     },

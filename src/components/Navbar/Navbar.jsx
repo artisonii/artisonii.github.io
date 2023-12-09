@@ -6,11 +6,11 @@ function Navbar() {
 
     const downloadHandle = () => {
         const link = document.createElement("a");
-        link.download = "Arti soni resume.pdf";
+        link.download = "Arti soni Full Stack Web Developer.pdf";
         link.href = resume;
         link.click();
         window.open(
-            // "https://drive.google.com/file/d/15GPVu26v2bPbnt43GOcV54BeKHRHS9Cg/view?usp=drive_link",
+            "https://drive.google.com/file/d/1l2tdReS48JCtuk5ISXpYavyWPbNM3DBt/view?usp=sharing",
             "_blank"
         );
     };

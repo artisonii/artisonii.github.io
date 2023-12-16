@@ -38,7 +38,7 @@ const data = [
         techStack: ["HTML", "JavaScript", "CSS"],
         description: "Bed Bath & Beyond is a popular retail chain in the United States that specializes in home goods and furnishings. The Bed Bath & Beyond website serves as an online platform where customers can browse and purchase a wide range of products for their homes.",
         githubLink: "https://github.com/artisonii/pw134-high-fruit-9045",
-        appLink: "https://effortless-raindrop-0b52c3.netlify.app/"
+        appLink: "https://bed-bath-and-beyond.netlify.app/"
     },
 
 ]

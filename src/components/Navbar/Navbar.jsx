@@ -6,7 +6,7 @@ function Navbar() {
 
     const downloadHandle = () => {
         const link = document.createElement("a");
-        link.download = "Arti soni Full Stack Web Developer.pdf";
+        link.download = "Arti-soni-Resume.pdf";
         link.href = resume;
         link.click();
         window.open(

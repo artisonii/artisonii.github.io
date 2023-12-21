@@ -6,7 +6,7 @@ import MyResume from "../Navbar/MyResume.pdf"
 function HomeSection() {
     const downloadHandle = () => {
         const link = document.createElement("a");
-        link.download = "Arti-soni-Resume.pdf";
+        link.download = "Arti-Soni-Resume.pdf";
         link.href = MyResume;
         link.setAttribute("class", "resume-link-2")
         link.click();
